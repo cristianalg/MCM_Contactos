@@ -1,3 +1,22 @@
 <resources>
     <string name="app_name">Contactos</string>
+    <string name="adicionar_novo_contacto">Adicionar Novo Contacto</string>
+    <string name="novo_contacto">Novo Contacto</string>
+    <string name="adicionar_contacto">Adicionar</string>
+    <string name="textView_nome">Nome:</string>
+    <string name="textView_telf_telm">Contacto:</string>
+    <string name="textView_email">Email:</string>
+    <string name="textView_codigo_postal">Código Postal:</string>
+    <string name="textViewList_nome">Nome</string>
+    <string name="textViewList_telf_telm">Contacto</string>
+    <string name="details_voltar_para_os_contactos">Voltar para os Contactos</string>
+    <string name="details_detalhes_do_contacto">Histórico do Contacto</string>
+    <string name="details_nome">Nome:</string>
+    <string name="details_nome_do_contacto">Nome do Contacto</string>
+    <string name="details_telf_telm">Contacto:</string>
+    <string name="details_contacto">Contacto</string>
+    <string name="details_email">Email:</string>
+    <string name="details_email_do_contacto">Email do Contacto</string>
+    <string name="details_codigo_postal">Código Postal:</string>
+    <string name="details_codigo_postal_do_contacto">Código Postal do Contacto</string>
 </resources>
