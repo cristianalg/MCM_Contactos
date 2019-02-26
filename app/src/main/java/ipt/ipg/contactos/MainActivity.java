@@ -9,12 +9,14 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ListView;
 
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
 
     private ContactHandler handler;
+    ListView lv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+        lv = (ListView) findViewById(R.id.lv_contact_list);
         loadContactData();
     }
 
@@ -43,6 +45,12 @@ public class MainActivity extends AppCompatActivity {
         // Code for loading contact list in ListView
         // Reading all contacts
         List<Contact> contacts = handler.readAllContacts();
+
+        // Initialize Custom Adapter
+        CustomAdapter adapter = new CustomAdapter(this, contacts);
+
+        // Set Adapter to ListView
+        lv.setAdapter(adapter);
 
         for(Contact c : contacts){
             String record = "ID=" + c.getID() + " | Name=" + c.getName() + " | " + c.getPhoneNumber();
