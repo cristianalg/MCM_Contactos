@@ -4,10 +4,13 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class ContactDetailsActivity extends AppCompatActivity {
 
@@ -51,5 +54,44 @@ public class ContactDetailsActivity extends AppCompatActivity {
                  startActivity(intent);
              }
         });
+    }
+
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        menu.add(1, 1, 0, "Editar");
+        menu.add(1,2,1,"Eliminar");
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        int itemid = item.getItemId();
+
+        switch(itemid){
+            case 1:
+                //Toast.makeText(getApplicationContext(), "Edit", Toast.LENGTH_LONG).show();
+                EditContact();
+                break;
+            case 2:
+                // Deleteing Contact
+                if(handler.deleteContact(extras.getInt("id"))){
+                    Toast.makeText(getApplicationContext(), "O contacto foi eliminado.", Toast.LENGTH_SHORT).show();
+                    Intent intent = new Intent(ContactDetailsActivity.this, MainActivity.class);
+                    startActivity(intent);
+                }
+                break;
+
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+
+    public void EditContact(){
+        Intent intent = new Intent(ContactDetailsActivity.this, EditContact.class);
+        intent.putExtras(extras);
+        startActivity(intent);
     }
 }
