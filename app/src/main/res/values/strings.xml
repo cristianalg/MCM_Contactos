@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Prj_Contactos</string>
+    <string name="app_name">Contactos</string>
     <string name="adicionar_novo_contacto">Adicionar Novo Contacto</string>
     <string name="novo_contacto">Novo Contacto</string>
     <string name="adicionar_contacto">Adicionar</string>
