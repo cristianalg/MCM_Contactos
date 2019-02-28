@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prj_Contatos</string>
+    <string name="adicionar_novo_contacto">Agregar nuevo contacto</string>
+    <string name="novo_contacto">Nuevo Contacto</string>
+    <string name="adicionar_contacto">Añadir</string>
+    <string name="textView_nome">Nombre:</string>
+    <string name="textView_telf_telm">Contato:</string>
+    <string name="textView_email">E-mail:</string>
+    <string name="textView_codigo_postal">Correo:</string>
+    <string name="textViewList_nome">Nombre</string>
+    <string name="textViewList_telf_telm">Contato</string>
+    <string name="details_voltar_para_os_contactos">Volver a los Contatos</string>
+    <string name="details_detalhes_do_contacto">Historial de contato</string>
+    <string name="details_nome">Nombre:</string>
+    <string name="details_nome_do_contacto">Nombre de contato</string>
+    <string name="details_telf_telm">Contato:</string>
+    <string name="details_contacto">Contato:</string>
+    <string name="details_email">E-mail:</string>
+    <string name="details_email_do_contacto">" Email del contato"</string>
+    <string name="details_codigo_postal">Correo:</string>
+    <string name="details_codigo_postal_do_contacto">Correo del contato</string>
+    <string name="menu_Editar">Editar</string>
+    <string name="menu_Eliminar">"Excluir "</string>
+    <string name="eliminar_contacto">O contato foi excluído</string>
+    <string name="editar_Contacto">Dados de contato não atualizados. Por favor, tente novamente.</string>
+    <string name="adicionar_Contacto">Contato não adicionado.Por favor, tente novamente.</string>
+    <string name="button_Editar">Editar</string>
+</resources>

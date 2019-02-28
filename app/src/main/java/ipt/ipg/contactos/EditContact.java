@@ -56,7 +56,7 @@ public class EditContact  extends AppCompatActivity {
         iv_photograph.setImageBitmap(BitmapFactory.decodeFile(extras.getString("photograph")));
 
         Button btn_update = (Button) findViewById(R.id.btn_add);
-        btn_update.setText("Update");
+        btn_update.setText(getString(R.string.button_Editar));
         btn_update.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -76,7 +76,7 @@ public class EditContact  extends AppCompatActivity {
                     Intent intent = new Intent(EditContact.this, MainActivity.class);
                     startActivity(intent);
                 }else{
-                    Toast.makeText(getApplicationContext(), "Dados de contacto não atualizados. Por favor, tente novamente.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), getString(R.string.editar_Contacto), Toast.LENGTH_LONG).show();
                 }
 
 

@@ -80,7 +80,7 @@ public class NewContactActivity extends AppCompatActivity {
                     Intent intent = new Intent(NewContactActivity.this, MainActivity.class);
                     startActivity(intent);
                 }else{
-                    Toast.makeText(getApplicationContext(), "Contacto não adicionado.Por favor, tente novamente.", Toast.LENGTH_LONG).show();
+                    Toast.makeText(getApplicationContext(), getString(R.string.adicionar_Contacto), Toast.LENGTH_LONG).show();
                 }
             }
         });

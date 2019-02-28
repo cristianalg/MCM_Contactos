@@ -59,8 +59,8 @@ public class ContactDetailsActivity extends AppCompatActivity {
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        menu.add(1, 1, 0, "Editar");
-        menu.add(1,2,1,"Eliminar");
+        menu.add(1, 1, 0, getString(R.string.menu_Editar));
+        menu.add(1,2,1,getString(R.string.menu_Eliminar));
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -77,7 +77,7 @@ public class ContactDetailsActivity extends AppCompatActivity {
             case 2:
                 // Deleteing Contact
                 if(handler.deleteContact(extras.getInt("id"))){
-                    Toast.makeText(getApplicationContext(), "O contacto foi eliminado.", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), getString(R.string.eliminar_contacto), Toast.LENGTH_SHORT).show();
                     Intent intent = new Intent(ContactDetailsActivity.this, MainActivity.class);
                     startActivity(intent);
                 }

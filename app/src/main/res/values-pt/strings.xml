@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Prj_Contactos</string>
     <string name="adicionar_novo_contacto">Adicionar Novo Contacto</string>
@@ -6,7 +7,7 @@
     <string name="textView_nome">Nome:</string>
     <string name="textView_telf_telm">Contacto:</string>
     <string name="textView_email">Email:</string>
-    <string name="textView_codigo_postal">Código Postal:</string>
+    <string name="textView_codigo_postal">Código Postal</string>
     <string name="textViewList_nome">Nome</string>
     <string name="textViewList_telf_telm">Contacto</string>
     <string name="details_voltar_para_os_contactos">Voltar para os Contactos</string>
@@ -14,14 +15,14 @@
     <string name="details_nome">Nome:</string>
     <string name="details_nome_do_contacto">Nome do Contacto</string>
     <string name="details_telf_telm">Contacto:</string>
-    <string name="details_contacto">Contacto</string>
+    <string name="details_contacto">Contacto:</string>
     <string name="details_email">Email:</string>
     <string name="details_email_do_contacto">Email do Contacto</string>
     <string name="details_codigo_postal">Código Postal:</string>
     <string name="details_codigo_postal_do_contacto">Código Postal do Contacto</string>
     <string name="menu_Editar">Editar</string>
     <string name="menu_Eliminar">Eliminar</string>
-    <string name="eliminar_contacto">O contacto foi eliminado.</string>
+    <string name="eliminar_contacto">O contacto foi eliminado</string>
     <string name="editar_Contacto">Dados de contacto não atualizados. Por favor, tente novamente.</string>
     <string name="adicionar_Contacto">Contacto não adicionado.Por favor, tente novamente.</string>
     <string name="button_Editar">Editar</string>

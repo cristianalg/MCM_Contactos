@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Prj_contacts</string>
+    <string name="adicionar_novo_contacto">Add New Contact</string>
+    <string name="novo_contacto">New Contact</string>
+    <string name="adicionar_contacto">Add</string>
+    <string name="textView_nome">Name:</string>
+    <string name="textView_telf_telm">Contact:</string>
+    <string name="textView_email">Email:</string>
+    <string name="details_codigo_postal">Postal Address</string>
+    <string name="textView_codigo_postal">Postal Address:</string>
+    <string name="textViewList_nome">Name</string>
+    <string name="textViewList_telf_telm">Conatct</string>
+    <string name="details_nome">Name:</string>
+    <string name="details_telf_telm">Contact:</string>
+    <string name="details_contacto">Contact:</string>
+    <string name="details_email">Email:</string>
+    <string name="menu_Editar">Edit</string>
+    <string name="menu_Eliminar">Delete</string>
+    <string name="button_Editar">Update</string>
+    <string name="details_voltar_para_os_contactos">Back to Contacts</string>
+    <string name="details_detalhes_do_contacto">Contact History</string>
+    <string name="details_nome_do_contacto">" Contact Name"</string>
+    <string name="details_email_do_contacto">"Contact Email "</string>
+    <string name="details_codigo_postal_do_contacto">Contact Postal Address</string>
+    <string name="eliminar_contacto">The contact has been deleted.</string>
+    <string name="editar_Contacto">"Contact data not updated. Please try again. "</string>
+    <string name="adicionar_Contacto">"Contact not added.Please try again. "</string>
+</resources>
